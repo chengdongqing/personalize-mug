@@ -11,7 +11,7 @@ defineEmits(['update:modelValue'])
   <div class="radio-group">
     <div
       v-for="item in options"
-      :key="item.value"
+      :key="item.value as string"
       :class="{ active: item.value === modelValue }"
       class="radio"
       @click="$emit('update:modelValue', item.value)"
