@@ -4,6 +4,7 @@ import { defineConfig } from 'vite'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/personalize-mug/',
   plugins: [react()],
   resolve: {
     alias: {
