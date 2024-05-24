@@ -1,0 +1,19 @@
+.form_item {
+    margin-bottom: 25px;
+
+    .label {
+        margin-bottom: 8px;
+        line-height: 1.4;
+        color: rgb(var(--color-font), 0.75);
+
+        span {
+            font-size: 13px;
+            font-weight: bold;
+        }
+
+        .required {
+            margin-left: 5px;
+            color: #ea4335;
+        }
+    }
+}

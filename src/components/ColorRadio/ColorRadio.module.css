@@ -1,0 +1,26 @@
+.color_radio {
+    display: flex;
+}
+
+.color_item {
+    margin: 8px 8px 0 0;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid transparent;
+
+    .inner {
+        width: 28px;
+        height: 28px;
+        border-radius: 50%;
+    }
+
+    &.active {
+        cursor: default;
+        border-color: var(--color-primary);
+    }
+}

@@ -1,0 +1,69 @@
+@font-face {
+  font-family: Dosis;
+  font-display: swap;
+  src: url("./assets/dosis.woff2") format("woff2"), url("./assets/dosis.woff") format("woff");
+}
+
+@font-face {
+  font-family: GochiHand-Regular;
+  font-display: swap;
+  src: url('https://cdn.teeinblue.com/users/36/fonts/62a1bc0793b4e.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "GochiHand";
+  src: url("https://cdn.teeinblue.com/users/36/cliparts/424976/63bfb75c59d3f.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "BubbleBoop";
+  src: url("https://cdn.teeinblue.com/users/36/cliparts/424976/63bfb75d026ab.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Georgia";
+  src: url("https://cdn.teeinblue.com/users/36/cliparts/424976/63bfb75cb84c9.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "BebasNeue";
+  src: url("https://cdn.teeinblue.com/users/36/cliparts/424976/63bfb75d403a5.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Chewy";
+  src: url("https://cdn.teeinblue.com/users/36/cliparts/424976/652cea0ef386d.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Waltograph";
+  src: url("https://cdn.teeinblue.com/users/36/cliparts/424976/652cea23ce8eb.ttf") format("truetype");
+  font-display: swap;
+}
+
+:root {
+  --color-primary: #1350DE;
+  --color-font: 18, 18, 18
+}
+
+*,
+*::before,
+*::after {
+  position: relative;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 10px;
+}
+
+img {
+  vertical-align: middle;
+}

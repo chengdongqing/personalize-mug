@@ -1,0 +1,35 @@
+.radio_group {
+    display: flex;
+    gap: 12px;
+}
+
+.radio {
+    cursor: pointer;
+    background-color: #fff;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    border: 1px solid transparent;
+    padding: 3px;
+
+    &.active {
+        border-color: var(--color-primary);
+    }
+
+    .icon {
+        width: 63px;
+        height: 63px;
+    }
+
+    .checkmark {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 18px;
+        height: 18px;
+        stroke: #fff;
+        stroke-width: 4;
+        stroke-linejoin: round;
+        stroke-linecap: round;
+        background-color: var(--color-primary);
+    }
+}
