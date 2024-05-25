@@ -23,8 +23,15 @@ export default function ProductPreview() {
     }
   }
 
-  return <div className={styles.product_preview}>
-    <img alt={''} src={state.cup} className={styles.img_background} ref={backgroundRef} />
-    {content()}
-  </div>
+  return (
+    <div className={styles.product_preview}>
+      <img
+        alt={''}
+        src={state.cup}
+        className={styles.img_background}
+        ref={backgroundRef}
+      />
+      {content()}
+    </div>
+  )
 }

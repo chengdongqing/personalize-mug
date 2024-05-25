@@ -1,6 +1,9 @@
 import { DependencyList, RefObject, useLayoutEffect, useState } from 'react'
 
-export default function useElementSize(elRef: RefObject<HTMLElement | null>, deps?: DependencyList | undefined) {
+export default function useElementSize(
+  elRef: RefObject<HTMLElement | null>,
+  deps?: DependencyList | undefined
+) {
   const [size, setSize] = useState({
     width: 0,
     height: 0

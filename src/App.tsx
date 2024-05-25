@@ -4,21 +4,20 @@ import { ActionDispatch, createContext, useReducer } from 'react'
 import styles from './App.module.css'
 
 interface ProductProps {
-  cup: string;
-  background: string;
-  dogCount: number;
-  skinColor: 'light' | 'dark';
-  handGesture: 'holdDrink' | 'victory';
-  womanName: string;
-  fontColor: string;
-  fontFamily: string;
+  cup: string
+  background: string
+  dogCount: number
+  skinColor: 'light' | 'dark'
+  handGesture: 'holdDrink' | 'victory'
+  womanName: string
+  fontColor: string
+  fontFamily: string
 }
 
 type DispatchType = { type: 'SET_VALUE'; payload: Partial<ProductProps> }
 
 const defaultValue: ProductProps = {
-  cup:
-    'https://cdn.teeinblue.com/users/36/products/40269/6258f7cb94c70_large.webp',
+  cup: 'https://cdn.teeinblue.com/users/36/products/40269/6258f7cb94c70_large.webp',
   background:
     'https://cdn.teeinblue.com/users/36/cliparts/95/5eb3825ca6932_large.png',
   dogCount: 1,
@@ -30,7 +29,7 @@ const defaultValue: ProductProps = {
 }
 
 export const ProductContext = createContext<{
-  state: ProductProps,
+  state: ProductProps
   dispatch?: ActionDispatch<[action: DispatchType]>
 }>({ state: defaultValue })
 
